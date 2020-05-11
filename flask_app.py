@@ -8,4 +8,4 @@ def inicio():
 
 @app.route('/login')
 def inicio_login():
-    return render_template('logi.html')
+    return render_template('login.html')
