@@ -5,3 +5,7 @@ app = Flask(__name__)
 @app.route('/')
 def inicio():
     return render_template('index.html')
+
+@app.route('/login')
+def inicio_login():
+    return render_template('logi.html')
